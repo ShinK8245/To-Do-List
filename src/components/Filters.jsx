@@ -23,7 +23,7 @@ const Filters = () => {
         onChange={handleChange}
         checked={filter === "all"}
       />
-      <label className="btn btn-outline-dark" htmlFor="all">
+      <label className="filter-buttons" htmlFor="all">
         Show All
       </label>
 
@@ -36,7 +36,7 @@ const Filters = () => {
         onChange={handleChange}
         checked={filter === "completed"}
       />
-      <label className="btn btn-outline-dark" htmlFor="completed">
+      <label className="filter-buttons" htmlFor="completed">
         Show Completed
       </label>
 
@@ -49,7 +49,7 @@ const Filters = () => {
         onChange={handleChange}
         checked={filter === "uncompleted"}
       />
-      <label className="btn btn-outline-dark" htmlFor="uncompleted">
+      <label className="filter-buttons" htmlFor="uncompleted">
         Show Uncompleted
       </label>
     </div>

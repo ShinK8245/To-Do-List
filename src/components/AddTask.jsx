@@ -5,8 +5,7 @@ const AddTask = () => {
   return (
     <>
       <button
-        className="btn btn-dark"
-        type="button"
+        className="add-task"
         id="add-task-modal-trigger"
         data-bs-toggle="modal"
         data-bs-target={`#${ADD_TASK_MODAL_ID}`}

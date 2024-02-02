@@ -63,7 +63,7 @@ const TaskItem = ({ task, setTaskToBeDeleted }) => {
         ) : (
           <>
             <input
-              className="form-check-input me-1"
+              className="form-check-input me-2"
               type="checkbox"
               id={taskId}
               checked={isCompleted}
