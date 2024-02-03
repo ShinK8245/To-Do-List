@@ -22,7 +22,7 @@ body {
   border: solid;
   border-width: 1px;
   border-color: rgb(193, 193, 193);
-  padding: 50px;
+  padding: 30px;
   border-radius: 20px;
 
   box-shadow: inset -2px -2px 40px 10px rgba(187, 187, 187, 0.286);
@@ -69,16 +69,16 @@ body {
 }
 
 #to-do-list-title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
   font-family: sans-serif;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: rgba(0, 0, 0, 0.815);
   letter-spacing: 1px;
 }
 
 #add-task-modal-trigger {
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: unset;
   border-radius: 15px;
   color: #212121;
@@ -91,7 +91,7 @@ body {
   box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
   transition: all 250ms;
   overflow: hidden;
-  width: 160px;
+  width: 130px;
 }
 
 #add-task-modal-trigger::before {
@@ -127,8 +127,7 @@ body {
   margin: 1px;
   padding: 10px 10px;
   text-align: center;
-  font-size: 17px;
-  letter-spacing: 1px;
+  font-size: 15px;
   text-decoration: none;
   color: #212121;
   background: rgba(243, 243, 243, 0.725);
