@@ -10,7 +10,7 @@ const Filters = () => {
 
   return (
     <div
-      className="btn-group w-100 mb-3"
+      className="btn-group w-100 mb-3 d-flex justify-content-between"
       role="group"
       aria-label="Basic radio toggle button group"
     >
