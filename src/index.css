@@ -78,7 +78,7 @@ body {
 }
 
 #add-task-modal-trigger {
-  padding: 10px 10px;
+  padding: 10px 5px;
   border: unset;
   border-radius: 15px;
   color: #212121;
@@ -92,6 +92,7 @@ body {
   transition: all 250ms;
   overflow: hidden;
   width: 130px;
+  margin-left: 10px;
 }
 
 #add-task-modal-trigger::before {
@@ -124,7 +125,7 @@ body {
 .filter-buttons {
   position: relative;
   display: inline-block;
-  margin: 1px;
+  margin: 2px;
   padding: 10px 10px;
   text-align: center;
   font-size: 15px;
