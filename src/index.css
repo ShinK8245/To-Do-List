@@ -199,12 +199,23 @@ body {
     margin-bottom: 20px;
   }
 
+  .sort-select {
+    width: 60%;
+  }
+
   .filter-buttons {
-    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .filter-buttons:active {
+    transform: scale(0.9);
+  }
+
+  #clear-completed-tasks {
     font-size: 14px;
   }
 
-  .sort-select {
-    width: 60%;
+  #add-task-modal-trigger {
+    font-size: 14px;
   }
 }
