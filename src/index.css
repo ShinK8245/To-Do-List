@@ -65,6 +65,8 @@ body {
 
 .sort-select {
   width: fit-content;
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 #to-do-list-title {
@@ -184,4 +186,25 @@ body {
 
 #clear-completed-tasks:hover:active {
   transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px) {
+  #main-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #to-do-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .filter-buttons {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .sort-select {
+    width: 60%;
+  }
 }
