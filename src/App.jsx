@@ -9,7 +9,13 @@ function App() {
     <>
       <nav className="navbar fixed-top">
         <div className="reboot">
-          <span style={{ color: "#55de00" }}>re</span>:boot - To do List
+          <a
+            href="https://www.re-boot.us/"
+            target="blank"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <span style={{ color: "#55de00" }}>re</span>:boot - To do List
+          </a>
         </div>
       </nav>
       <div id="main-container">
