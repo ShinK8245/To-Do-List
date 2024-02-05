@@ -67,7 +67,11 @@ body {
   display: flex;
   align-items: center;
   width: 250px;
-  gap: 10px;
+  gap: 5px;
+}
+
+.form-select-sort-select {
+  width: 100%;
 }
 
 #to-do-list-title {
@@ -160,8 +164,8 @@ body {
   position: relative;
   font-weight: 1000;
   font-size: 13px;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(9, 9, 9, 0.542);
+  box-shadow: 4px 8px 19px -3px rgba(11, 11, 11, 0.576);
   transition: all 400ms;
   overflow: hidden;
 }
@@ -176,8 +180,8 @@ body {
   border-radius: 15px;
   background-color: #55de00;
   z-index: -1;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(12, 12, 12, 0.628);
+  box-shadow: 4px 8px 19px -3px rgba(17, 17, 17, 0.535);
   transition: all 400ms;
 }
 
