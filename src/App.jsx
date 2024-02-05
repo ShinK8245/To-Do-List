@@ -6,18 +6,22 @@ import { Sort } from "./components/Sort";
 
 function App() {
   return (
-    <div id="main-container">
-      <h1 id="to-do-list-title" className="d-flex justify-content-center">
-        To-Do List
-      </h1>
-      <div className="d-flex justify-content-between mb-3">
-        <Sort />
-        <AddTask />
+    <>
+      <nav className="navbar fixed-top">
+        <div className="reboot">
+          <span style={{ color: "#55de00" }}>re</span>:boot - To do List
+        </div>
+      </nav>
+      <div id="main-container">
+        <div className="d-flex justify-content-between mb-3">
+          <Sort />
+          <ClearTask />
+          <AddTask />
+        </div>
+        <TaskList />
+        <Filters />
       </div>
-      <TaskList />
-      <Filters />
-      <ClearTask />
-    </div>
+    </>
   );
 }
 

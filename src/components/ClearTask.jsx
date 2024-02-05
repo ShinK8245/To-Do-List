@@ -7,15 +7,15 @@ const ClearTask = () => {
   const disabled = tasks.filter((task) => task.isCompleted).length === 0;
   return (
     <>
-      <div className="w-100">
+      <div className="">
         <button
-          className="w-100"
+          className=""
           id="clear-completed-tasks"
           data-bs-toggle="modal"
           data-bs-target="#clearCompletedTasks"
           disabled={disabled}
         >
-          Clear Completed Tasks
+          Clear Completed
         </button>
       </div>
 
