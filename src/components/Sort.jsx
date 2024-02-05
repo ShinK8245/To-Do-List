@@ -12,7 +12,7 @@ const Sort = () => {
     <div className="sort-container">
       <span className="sort-label">Sort by: </span>
       <select
-        className="form-select sort-select"
+        className="form-select-sort-select"
         value={sortOrder}
         onChange={handleSortOderChange}
       >
