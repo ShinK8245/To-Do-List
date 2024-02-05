@@ -72,6 +72,7 @@ body {
 
 .form-select-sort-select {
   width: 100%;
+  border-radius: 5px;
 }
 
 #to-do-list-title {
