@@ -30,7 +30,7 @@ function App() {
         </div>
         <div className="icons d-flex justify-content-center">
           <p>
-            created with <img src="icon/1.png" alt="html" width="20" />{" "}
+            created with <img src="icon/1.png" alt="html" width="20" />
             <img src="icon/2.png" alt="css" width="20" />
             <img src="icon/3.png" alt="js" width="20" />
             <img src="icon/4.png" alt="react" width="20" />
