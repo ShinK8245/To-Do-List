@@ -18,14 +18,24 @@ function App() {
           </a>
         </div>
       </nav>
-      <div id="main-container">
-        <div className="d-flex justify-content-between mb-3">
-          <Sort />
-          <ClearTask />
-          <AddTask />
+      <div id="app-container">
+        <div id="main-container">
+          <div className="d-flex justify-content-between mb-3">
+            <Sort />
+            <ClearTask />
+            <AddTask />
+          </div>
+          <TaskList />
+          <Filters />
         </div>
-        <TaskList />
-        <Filters />
+        <div className="icons d-flex justify-content-center">
+          <p>
+            created with <img src="icon/1.png" alt="html" width="20" />{" "}
+            <img src="icon/2.png" alt="css" width="20" />
+            <img src="icon/3.png" alt="js" width="20" />
+            <img src="icon/4.png" alt="react" width="20" />
+          </p>
+        </div>
       </div>
     </>
   );
